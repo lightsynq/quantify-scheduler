@@ -14,7 +14,7 @@ beautifulsoup4==4.12.3
 bleach==6.1.0
 bokeh==3.4.3
 broadbean==0.14.0
-certifi==2024.7.4
+certifi==2026.10.19
 cf_xarray==0.9.4
 cffi==1.17.0
 cfgv==3.4.0
@@ -51,7 +51,7 @@ fonttools==4.53.1
 fsspec==2024.6.1
 get-annotations==0.1.2
 gitdb==4.0.11
-GitPython==3.1.43
+GitPython==3.2.1
 greenlet==3.0.3
 h11==0.14.0
 h5netcdf==1.3.0
@@ -106,7 +106,7 @@ mccabe==0.7.0
 mdit-py-plugins==0.4.1
 mdurl==0.1.2
 methodtools==0.4.7
-mistune==3.0.2
+mistune==3.3.0
 more-itertools==10.4.0
 mypy-extensions==1.0.0
 myst-nb==1.1.1
@@ -132,7 +132,7 @@ pathspec==0.12.1
 pathvalidate==3.2.0
 pep8-naming==0.10.0
 pexpect==4.9.0
-pillow==10.4.0
+pillow==13.0.0
 pip==24.2
 pkginfo==1.10.0
 platformdirs==4.2.2
@@ -265,3 +265,4 @@ zhinst==21.8.20515
 zhinst-qcodes==0.1.4
 zhinst-toolkit==0.1.5
 zipp==3.20.0
+pyjwt>=2.14.0 # not directly required, pinned by Snyk to avoid a vulnerability
