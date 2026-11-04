@@ -106,7 +106,7 @@ mccabe==0.7.0
 mdit-py-plugins==0.4.1
 mdurl==0.1.2
 methodtools==0.4.7
-mistune==3.0.2
+mistune==3.3.3
 more-itertools==10.4.0
 mypy-extensions==1.0.0
 myst-nb==1.1.1
@@ -265,3 +265,4 @@ zhinst==21.8.20515
 zhinst-qcodes==0.1.4
 zhinst-toolkit==0.1.5
 zipp==3.20.0
+pyasn1>=0.6.5 # not directly required, pinned by Snyk to avoid a vulnerability
